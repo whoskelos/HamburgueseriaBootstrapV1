@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+ #fondo {
+    background-image: url("/img/pexels-daniel-reche-1556688.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 45%;
+    height: 100vh;
+}
+#fondo:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+} */
+.header .navbar {
+    background-color: transparent !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgb(233, 162, 30) !important;
+}
+.tituloWeb {
+    font-size: 30px !important;
+}
+.tituloWeb b {
+    color: rgb(182, 12, 12) !important;
+}
+.bar {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: rgb(182, 12, 12) !important;
+}
+.subtitulo {
+    font-family: "Andada Pro", serif !important;
+    color: #8e6827 !important;
+    font-style: italic !important;
+}
+.titulo {
+    font-family: "Josefin Sans", sans-serif;
+    color: white !important;
+    /* font-weight: bold !important; */
+}
+.texto {
+    font-size: 13px !important;
+    font-weight: 580 !important;
+    color: white !important;
+    letter-spacing: 2px;
+}
+.container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start !important;
+    justify-content: center !important;
+    height: 100% !important;
+    position: relative !important;
+}
+.elementos {
+    font-weight: 580 !important;
+    /* display: flex !important; */
+    border-left: 2px solid #8e6827 !important;
+    color: rgb(233, 162, 30) !important;
+    width: 31% !important;
+    /* justify-content: space-around !important; */
+    /* align-items: center !important; */
+}
+.flechas img {
+    margin: 4px !important;
+    width: 10px !important;
+    filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);
+}
+.elemento2 img {
+    margin: 4px !important;
+    width: 30px !important;
+}
